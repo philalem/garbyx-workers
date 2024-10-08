@@ -1,3 +1,3 @@
-* * * * * curl https://raw.githubusercontent.com/DO-Solutions/docker-cron/refs/heads/main/poem.json >/proc/1/fd/1 2>/proc/1/fd/2
+*/10 * * * * curl -X POST http://localhost:3000/api/v1/send-chat-history -H "Authorization: Bearer $API_KEY" >> /var/log/cron.log 2>&1
 
 # An empty line is required at the end of this file for a valid cron file.
