@@ -1,0 +1,70 @@
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+envs:
+  - key: DB_CA_CERT
+    scope: RUN_AND_BUILD_TIME
+    type: SECRET
+    value: EV[1:nSIRIM8o5V0nJtMvRwOscAinYsPSyscU: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]
+  - key: DB_CA_CERT_BASE64
+    scope: RUN_AND_BUILD_TIME
+    type: SECRET
+    value: EV[1:nM0vw89IgWQoULabgmyMRi1xayGYqy8w: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]
+features:
+  - buildpack-stack=ubuntu-22
+ingress:
+  rules:
+    - component:
+        name: garbyx-api
+      match:
+        path:
+          prefix: /
+name: garbyx-api
+region: nyc
+services:
+  - dockerfile_path: Dockerfile
+    envs:
+      - key: PORT
+        scope: RUN_AND_BUILD_TIME
+        value: "3000"
+      - key: NODE_ENV
+        scope: RUN_AND_BUILD_TIME
+        value: production
+      - key: JWT_SECRET
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+        value: EV[1:noiaFANj77MnT4AF0CwLH6IgBAhNqlNB:6yWuDZu1Te7ihFAEdD04/PDJhtDnvEhAjosXwuujD3c+9qH1QuMs/CoH6BIKjij+CtbQWoEEeNFv/ZeX9W1RbRov0JDiq84HGCZOlFOkydc=]
+      - key: GOOGLE_MAPS_API_KEY
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+        value: EV[1:aabkxrNrBvU3He892AX3OfLFWzeLwCZ7:7ySXNw91GKAc42Y8f80HfJnzZsinRR+BYtvodQ/K1LQPilGvyyFAK13jrgR6k3qITOA1SjB9yQ==]
+      - key: DATABASE_URL
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+        value: EV[1:uOXCqeLR9X8XQ22N1cQDwEos+q6uKsT9:CzXX2YB9dVAsYD85tsDDF3iGOklsmGYHzyGEHzoZ+Ie8XDXLbTpmFtyBWV77pFLrQuhDyny4WXWXpc2C27H2/7rUTvzo+hbNp9ba1YhyVXhYMdEdPLPmvxkgMi9rsbPpaZu/aaahqhQUh476T313ViZDJQX7u4goy0eLmkJKluaZIIHCUPGM+GsU2+o11A==]
+    github:
+      branch: master
+      deploy_on_push: true
+      repo: philalem/garbyx-api
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    log_destinations:
+      - name: OpenSearch DB
+        open_search:
+          basic_auth:
+            user: doadmin
+          cluster_name: db-opensearch-nyc3-65159
+          index_name: garbyx-api-logs
+    name: garbyx-api
+    source_dir: /
+workers:
+  - dockerfile_path: Dockerfile
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: philalem/garbyx-workers
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    name: garbyx-workers
+    source_dir: /
